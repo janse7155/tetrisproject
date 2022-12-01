@@ -133,7 +133,9 @@ function CreateTetrominos() {
 }
 
 function CreateTetromino() {
-    let randomTetromino = Math.floor()
+    let randomTetromino = Math.floor(Math.random() * tetrominos.length)
+    curTetromino = tetrominos[randomTetromino];
+    curTetrominoColor = tertominoColors[randomTetromino];
 }
 
 
